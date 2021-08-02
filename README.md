@@ -16,5 +16,6 @@
   -> Dropout
   -> Dense
   <pre>
-- The model uses 'adam' optimizer, 'sparse categorial entropy' loss and calculates 'accuracy' metric.
-- It was trained for 10 epochs.
+- The model has an accuracy of 98.58.
+- It uses *adam* optimizer, *sparse categorial entropy* loss and displays its *accuracy*.
+- Training was done for 10 epochs.
