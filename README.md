@@ -1,13 +1,14 @@
 **CNN Classifier to recognize and classify handwritten digits:**
-- Uses MNIST dataset with 60,000 training images and 10,000 test images.
-- Plots greyscale images using matplotlib.
+- MNIST dataset
+- 60,000 training images, 10,000 test images.
+- Plots greyscale images.
 - Preprocessing involved: 
   <pre>
-  -> re-shaping into 4D to make it compatible with Keras API
+  -> re-shaping into 4D to make it compatible with Keras
   -> type conversion to float
   -> normalization using max. RGB value
   <pre>
-- A Sequential model was used. 6 Layers were added:
+- Sequential model with 6 Layers:
   <pre>
   -> Conv2D
   -> MaxPooling2D
@@ -16,6 +17,6 @@
   -> Dropout
   -> Dense
   <pre>
-- The model has an accuracy of 98.58.
-- Uses adam optimizer, sparse categorial entropy loss and displays its accuracy.
-- Training was done for 10 epochs.
+- trained for 10 epochs
+- computes with adam optimizer and sparse categorial entropy as loss
+- test accuracy of 98.46
