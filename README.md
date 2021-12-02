@@ -18,5 +18,5 @@
   -> Dense
   <pre>
 - trained for 10 epochs
-- computes with adam optimizer and sparse categorial entropy as loss
+- computes with adam optimizer and sparse categorical entropy as loss
 - test accuracy of 98.46
