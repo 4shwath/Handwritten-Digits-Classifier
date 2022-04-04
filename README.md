@@ -4,7 +4,7 @@
 - Plots greyscale images.
 - Preprocessing involved: 
   <pre>
-  -> re-shaping into 4D to make it compatible with Keras
+  -> re-shaping into 4D to make it compatible with Conv2D layer
   -> type conversion to float
   -> normalization using max. RGB value
   <pre>
